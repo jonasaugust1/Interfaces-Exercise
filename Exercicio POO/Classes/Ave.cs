@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace Exercicio_POO.Classes
 {
-    public class Ave : Animal, IVoar, IAquatico
+    public class Ave : Animal
     {
         public bool Rapina { get; set; }
         public bool CorPena { get; set; }
-        public int AltitudeMaximaEmMetros { get; set; }
-        public double VelocidadeDoVoo { get; set; }
-        public bool ViveEmTerra { get; set; }
-        public bool Mergulho { get; set; }
-        public bool AguaDoce { get; set; }
 
         public Ave(
             string nome, 
@@ -31,7 +26,6 @@ namespace Exercicio_POO.Classes
             CorPena = corPena;
         }
 
-        public void Ciscar() { }
-        public void Voar () { }
+      
     }
 }

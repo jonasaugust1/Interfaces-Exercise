@@ -8,13 +8,11 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Exercicio_POO.Classes
 {
-    internal class Reptil : Animal, IAquatico, IOviparo
+    internal class Reptil : Animal
     {
         public bool TemEscamas { get; set; }
         public bool TemCasco { get; set; }
-        public bool ViveEmTerra { get; set; }
-        public bool Mergulho { get; set; }
-        public bool AguaDoce { get; set; }
+
 
         public Reptil(
             string nome,
